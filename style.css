@@ -1,0 +1,449 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    caret-color: transparent;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 25px;
+    font-size: 1.125rem;
+    font-family: "Bai Jamjuree", sans-serif;;
+}
+
+main {
+    width: 1440px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.desktop-background-image {
+    width: inherit;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+
+.flex-inline {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-column {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.align-center {
+    text-align: center;
+}
+
+/* Containers Position */
+
+header .h-text {
+    margin-bottom: 20px;
+}
+
+header .logo-container {
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+
+header .first-description-container p {
+    width: 65%;
+}
+
+.download-buttons-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 90px;
+}
+
+.ios-download button {
+    margin-right: 8px;
+}
+
+.ios-download button,
+.mac-download button {
+    height: 30px;
+    width: 120px;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.second-description-container .h-text {
+    margin-bottom: 20px;
+}
+
+.second-description-container p {
+    width: 45%;
+}
+
+.mac-image-container {
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin-top: 48px;
+}
+
+.mac-image-container img {
+    position: relative;
+    margin-right: 60px;
+    left: -25px;
+}
+
+.aside-description-container p {
+    width: 59%;
+}
+
+.aside-description-container p:nth-child(2),
+.aside-description-container p:nth-child(4) {
+    margin-bottom: 40px;
+}
+
+.third-description-container {
+    margin-top: 90px;
+    margin-bottom: 65px;
+}
+
+.third-description-container p {
+    width: 75%;
+    margin-top: 20px;
+}
+
+.fourth-description-container p {
+    margin-top: 20px;
+    margin-bottom: 48px;
+}
+
+.fifth-description-container {
+    width: 1000px;
+}
+
+.fifth-description-container .first-item,
+.fifth-description-container .second-item {
+    margin: auto;
+    width: 30%;
+}
+
+.fifth-description-container .third-item {
+    margin: auto;
+    width: 31%;
+}
+
+.fifth-description-container img {
+    margin-bottom: 25px;
+}
+
+.fifth-description-container p {
+    margin-top: 18px;
+}
+
+.brands-list img {
+    margin: 100px 50px;
+}
+
+.sixth-description-container p {
+    width: 65%;
+    margin-top: 20px;
+}
+
+footer {
+    height: 80px;
+    width: 1440px;
+    background-color: hsla(220, 17.65%, 96.67%);
+}
+
+footer .logo-container {
+    margin: 0px 70px 0px 270px;
+}
+
+footer .links-container ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    width: 350px;
+}
+
+footer .links-container li:first-child {
+    margin-right: 80px;
+}
+
+footer .links-container li:nth-child(2) {
+    margin-right: 40px;
+}
+
+footer .links-container li:nth-child(4) {
+    margin-right: 41px;
+}
+
+footer .social-container {
+    margin: 0px 270px 0px auto;
+}
+
+footer .social-container img {
+    margin-inline-start: 15px;
+}
+
+/* Text Style */
+
+.h-text {
+    font-weight: 600;
+    color: hsl(210, 10%, 33%);
+}
+
+.p-text {
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: hsl(201, 11%, 66%);
+}
+
+a {
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: hsl(210, 10%, 33%, 0.8);
+}
+
+.ios-download button,
+.mac-download button {
+    font-size: 0.625rem;
+    color: hsl(0, 0%, 100%);
+}
+
+.ios-download button {
+    border: solid hsl(168.96, 65.45%, 37.45%);
+    border-width: 0.5px 1px 1.5px 1px;
+    box-shadow: 0px 5px 20px -10px hsl(171, 66%, 44%);
+    background-color: hsl(171, 66%, 44%);
+}
+
+.mac-download button {
+    border: solid hsl(232.94, 64.15%, 58.43%);
+    border-width: 0.5px 1px 1.5px 1px;
+    box-shadow: 0px 5px 20px -10px hsl(150, 5.88%, 93.33%);
+    background-color: hsl(233, 100%, 69%);
+}
+
+.ios-download button:hover {
+    border: solid hsl(168.96, 65.45%, 37.45%, 0.9);
+    border-width: 0.5px 1px 1.5px 1px;
+    box-shadow: 0px 5px 20px -10px hsl(171, 66%, 44%);
+    background-color: hsl(171, 66%, 44%, 0.9);
+}
+
+.mac-download button:hover {
+    border: solid hsl(232.94, 64.15%, 58.43%, 0.9);
+    border-width: 0.5px 1px 1.5px 1px;
+    box-shadow: 0px 5px 20px -10px hsl(150, 5.88%, 93.33%);
+    background-color: hsl(233, 100%, 69%, 0.9);
+}
+
+.aside-description-container p {
+    font-size: 0.75rem;
+}
+
+.links-container a:hover {
+    color: hsl(171, 66%, 44%);
+}
+
+
+
+@media only screen and (max-width: 1440px) {
+
+    body {
+        justify-items: center;
+        justify-content: unset;
+    }
+
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    .desktop-background-image {
+        display: none;
+    }
+
+    .mobile-background-image {
+        width: 100%;
+        position: absolute;
+        top: 0;
+        z-index: -1;
+    }
+
+    body {
+        display: block;
+    }
+    
+    main {
+        width: 100vw;
+    }
+
+    .h-text {
+        width: 72%;
+        line-height: 35px;
+    }
+
+    .p-text {
+        width: 72%;
+    }
+
+    header .logo-container img {
+        width: 100px;
+    }
+
+    header .logo-container {
+        margin-top: 100px;
+        margin-bottom: 70px;
+    }
+    
+    .download-buttons-container {
+        flex-direction: column;
+    }
+    
+    .ios-download button {
+        margin-right: initial;
+        margin-bottom: 8px;
+    }
+    
+    .ios-download button,
+    .mac-download button {
+        width: 250px;
+    }
+
+    .second-description-container .h-text {
+        line-height: 40px;
+        width: 80%;
+    }
+
+    .mac-image-container {
+        width: 100%;
+        overflow: initial;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+    
+    .mac-image-container img {
+        width: 70%;
+        position: initial;
+        margin-right: initial;
+        left: initial;
+    }
+
+    .aside-description-container {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .third-description-container {
+        margin-top: 90px;
+        margin-bottom: 65px;
+    }
+
+    
+    .mobile-image-container img {
+        width: 70%;
+        margin-bottom: 100px;
+    }
+
+    .fifth-description-container {
+        width: 100%;
+        flex-direction: column;
+    }
+    
+    .fifth-description-container .first-item,
+    .fifth-description-container .second-item,
+    .fifth-description-container .third-item {
+        width: 100%;
+    }
+    
+    .fifth-description-container p {
+        margin-top: 18px;
+        margin-bottom: 50px;
+    }
+
+    .brands-list {
+        flex-direction: column;
+    }
+
+    .brands-list img {
+        margin: 25px 0px;
+    }
+
+    footer {
+        flex-direction: column;
+        height: initial;
+        width: 100%;
+    }
+    
+    footer .logo-container {
+        margin: 50px 0px;
+    }
+
+    footer .logo-container img {
+        width: 50px;
+    }
+    
+    footer .links-container ul {
+        flex-wrap: nowrap;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    footer .links-container li:first-child {
+        margin-right: initial;
+    }
+    
+    footer .links-container li:nth-child(2) {
+        margin-right: initial;
+    }
+    
+    footer .links-container li:nth-child(4) {
+        margin-right: initial;
+    }
+    
+    footer .links-container li {
+        margin: 10px 0px;
+    }
+
+    footer .social-container {
+        margin: initial;
+    }
+    
+    footer .social-container img {
+        margin: 50px 20px;
+    }
+
+}
+
+@media (min-width: 768px) {
+
+    .mobile-background-image {
+        display: none;
+    }
+
+}
